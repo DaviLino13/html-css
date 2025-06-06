@@ -129,3 +129,37 @@ input:focus, textarea:focus {
 section#contato > a {
     
 }
+
+.servicos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.servico {
+  flex: 1 1 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.servico i {
+  font-size: 40px;
+  color: #007BFF;
+  margin-bottom: 15px;
+}
+
+.servico h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.servico p {
+  font-size: 16px;
+  color: #555555;
+}
