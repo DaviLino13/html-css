@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        input {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <H1>Tipos de formulario</H1>
+    <form action="">
+        <label for="textnome">Nome:</label>
+        <input type="text" id="textnome" name="textnome"  placeholder="Digite seu nome" required>
+
+        <br><label for="textsobrenome">Sobrenome:</label>
+        <input type="text" name="textsobrenome" id="textsobrenome" placeholder="Digite seu sobrenome" required>
+
+        <br><label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite um Email" required>
+
+        <br><label for="password">Senha:</label>
+        <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+
+        <h3>Sexo</h3>
+        
+        <input type="radio" name="genero" id="boy" value="Homem">
+        <label for="boy">Homem</label>
+
+        <input type="radio" name="genero" id="menina" value="Mulher">
+        <label for="menina">Mulher</label>
+
+        <h3>Esporte</h3>
+
+        
+        <input type="checkbox" name="checkboxesport" id="futbol" value="futbol">
+        <label for="futbol">Futbol</label>
+
+        <input type="checkbox" name="checkboxesport" id="volei" value="volei">
+        <label for="volei">Volei</label>
+
+        <input type="checkbox" name="checkboxesport" id="basquete" value="basquete">
+        <label for="basquete">Basquete</label>
+
+        <h3>Cor Favorita</h3>
+
+        <select name="cores">
+            <option 
+               selected disabled value="Selecione uma cor">Selecione uma cor
+            </option>
+            <option 
+                value="Vermelho">Vermelho
+            </option>
+            <option 
+                value="Verde">Verde
+            </option>
+            <option 
+                value="Azul">Azul
+            </option>
+            <option 
+                value="Amarelo">Amarelo
+            </option>
+            <option 
+                value="Rosa">Rosa
+            </option>
+            <option 
+                value="Roxo">Roxo
+            </option>
+        </select><br>
+
+        <h3>Mensagem</h3>
+
+        <textarea name="mensagem" cols="30" rows="4" placeholder="Digite sua Mensagem"></textarea><br>
+
+        <button>entra</button>
+
+        <br><label for=""></label>
+        <input type="submit" value="Enviar Formulario">
+    </form>
+</body>
+</html>
