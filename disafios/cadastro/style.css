@@ -13,6 +13,9 @@ body {
     position: absolute;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 .navbar {
     font-family: 'Roboto';
     display: flex;
